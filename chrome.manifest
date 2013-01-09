@@ -1,0 +1,8 @@
+# The format of this file is specified here:
+# https://developer.mozilla.org/en/Chrome_Registration
+
+content pkcs11-tool chrome/content/
+
+overlay chrome://browser/content/browser.xul chrome://pkcs11-tool/content/browserOverlay.xul application={ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+
+resource pkcs11-tool chrome/modules/
